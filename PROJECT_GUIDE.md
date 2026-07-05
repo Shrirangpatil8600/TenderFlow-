@@ -182,10 +182,10 @@ Follow these steps to deploy and run the project locally on your machine.
 
 ### Step 2: Set Up Database
 1.  Open your MySQL terminal or GUI client.
-2.  Log in to your local account and execute the SQL dump file [tender.sql](file:///c:/Users/Gaurav%20Gawali/Documents/GitHub/Tender-Management-System-master/DataBase/tender.sql) located inside the `DataBase` folder to create the database structure with seed data.
+2.  Log in to your local account and execute the SQL dump file [db.sql](file:///c:/Users/Shrirang%20Patil/Documents/GitHub/TenderFlow-/src/main/webapp/db.sql) located inside the `DataBase` folder to create the database structure with seed data.
 
 ### Step 3: Configure Database Properties
-Open [dbdetails.properties](file:///c:/Users/Gaurav%20Gawali/Documents/GitHub/Tender-Management-System-master/tendermanagement/src/dbdetails.properties) and update the credentials to match your local database settings:
+Open [application.properties](file:///c:/Users/Shrirang%20Patil/Documents/GitHub/TenderFlow-/src/main/resources/application.properties) and update the credentials to match your local database settings:
 ```properties
 driverName = com.mysql.cj.jdbc.Driver
 connectionString = jdbc:mysql://localhost:3306/tender
